@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 import HomeScreen from './HomeScreen';
 import { globalStyles } from '../styles';
 
-const AdminScreen: React.FC = () => {
+const AdminScreen = () => {
   return (
     <View style={globalStyles.container}>
       <HomeScreen />

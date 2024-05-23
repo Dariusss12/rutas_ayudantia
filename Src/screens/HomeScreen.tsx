@@ -3,7 +3,7 @@ import { View, Text, Button } from 'react-native';
 import { useAuth } from '../context/AuthContext';
 import { globalStyles } from '../styles';
 
-const HomeScreen: React.FC = () => {
+const HomeScreen = () => {
   const { logout, user } = useAuth();
 
   return (
