@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 import { useAuth } from '../context/AuthContext';
-import { globalStyles } from '../../styles';
+import { globalStyles } from '../styles';
 
 const HomeScreen: React.FC = () => {
   const { logout, user } = useAuth();

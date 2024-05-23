@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button } from 'react-native';
 import { useAuth } from '../context/AuthContext';
-import { globalStyles } from '../../styles';
+import { globalStyles } from '../styles';
 
 const LoginScreen: React.FC = () => {
   const { login } = useAuth();

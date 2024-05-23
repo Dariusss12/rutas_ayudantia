@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import HomeScreen from './HomeScreen';
-import { globalStyles } from '../../styles';
+import { globalStyles } from '../styles';
 
 const UserScreen: React.FC = () => {
   return (
